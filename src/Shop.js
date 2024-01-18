@@ -12,7 +12,7 @@ function Shop() {
         setGingerBread(newSelection)
     }
     return (
-    <div className="container">
+    <div className="shop-container">
         <Buttons selectedProduct = {selectedProduct}
         data = {data}
         setGingerBread = {setGingerBread}/>

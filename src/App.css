@@ -1,5 +1,6 @@
 body {
   background-color: #B7B7B7;
+  min-height: 100vh;
 }
 video {
   width: 100vw;
@@ -7,7 +8,6 @@ video {
   object-fit: cover;
   position: fixed;
   top: 0;
-  left: 0;
   z-index: -1;
 }
 nav {
@@ -32,6 +32,10 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+img {
+  width: 350px;
+  height: 300px;
 }
 .product-card {
   display: flex;
@@ -58,15 +62,15 @@ p {
   font-size: 16px;
 }
 .btn-container {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
-  margin-top: -50px;
 }
 .btn {
   background-color: #FFC5C5;
   padding: 12px;
   margin: 10px;
-  width: 7%;
+  flex: 1;
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   border: none;
@@ -76,7 +80,7 @@ p {
   cursor: pointer;
 }
 .container {
-  margin-top: 5%;
+  margin-top: 100px;
 }
 .text {
   padding: 40px 10px 40px 10px;
@@ -86,24 +90,43 @@ p {
   align-items: center;
   text-align: center;
   background: #FCAEAE;
-  opacity: 0.6;
+  opacity: 0.7;
   margin-left: 5%;
   width: 45%;
   height: 80%;
 }
+p {
+  font-size: 20px;
+}
 h2 {
   margin-top: 5px;
 }
-h3 {
-  font-size: 21px;
+.price {
+  font-size: 20px;
   margin-bottom: 15px;
 }
+.audio {
+  margin-left: 26%;
+  margin-top: 5%
+}
+.btn-music {
+  background-color: #FFC5C5;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  border: 2px solid #FF8989;
+  border-radius: 20px;
+}
+.btn-music:hover {
+  background-color: #FF8989;
+  cursor: pointer;
+}
 .answer-container {
-  margin: 10%;
+  margin: 3% 10% 10% 10%;
   display: flex;
   justify-content: center;
 }
-.text-area {
+.text-areaAnswer {
   width: 700px;
   height: 300px;
   border: 2px solid #FFC5C5;
@@ -121,7 +144,17 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
-.btn-answer, .btn-submit {
+.btn-answer {
+  background-color: #FFC5C5;
+  padding: 12px;
+  width: 100px;
+  border: none;
+}
+.direction {
+  width: 40px;
+  height: 40px;
+}
+.btn-submit {
   background-color: #FFC5C5;
   padding: 12px;
   font-family: 'Montserrat', sans-serif;
@@ -133,7 +166,7 @@ h3 {
   cursor: pointer;
 }
 form {
-  margin: 10%;
+  margin: 8% 10% 5% 10%;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -156,10 +189,147 @@ textarea {
   cursor: pointer;
 }
 .contact {
-  margin-left: 10%;
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center;
-  width: 500px;
+  padding: 15px;
   background-color: #FFC5C5;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram {
+  color: #FF8989;
+  padding: 15px;
+}
+.goToInsta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+@media all and (max-width: 810px) {
+  nav {
+    padding: 5px;
+  }
+  .link {
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 40px;
+  }
+  .container {
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .btn {
+    margin: 5px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .text {
+    margin: auto;
+    width: 75%;
+    height: 80%;
+  }
+  img {
+    width: 280px;
+    height: 240px;
+  }
+  .product-card {
+    margin: 20px 30px;
+    width: 300px;
+    height: 400px;
+  }
+  .text-areaAnswer {
+    width: 700px;
+    height: 470px;
+  }
+  .btn-answer {
+    width: 150px;
+    font-size: 18px;
+  }
+  .audio {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  form {
+    margin-top: 15%;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .link {
+    font-size: 16px;
+    padding: 5px 5px;
+  }
+  .text {
+    width: 80%;
+  }
+  .btn-container {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin: 5% 10% 5% 15%;
+  }
+  .btn {
+    margin: 5px;
+  }
+  .answer-container {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-areaAnswer {
+    width: 300px;
+    height: 400px;
+    text-align: left;
+  }
+  .title-answer {
+    margin: 2%;
+    font-size: 18px;
+  }
+  .text-answer {
+    font-size: 17px;
+  }
+  .btn-answer {
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+    font-size: 17px;
+  }
+  .direction {
+    width: 30px;
+    height: 30px;
+  }
+  input {
+    width: 350px;
+  }
+  textarea {
+    width: 350px;
+  }
+  .goToInsta {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+  }
 }

@@ -1,15 +1,17 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import './App.css';
 
 function Contact() {
     const [state, handleSubmit] = useForm("xwkgpqpw");
     
     if (state.succeeded) {
-        return <p class="contact">Ваше сообщение отправлено!</p>;
-        
+        return  <p className="contact">Ваше сообщение отправлено!</p>;
         }
     return(
+        <div>
         <form onSubmit={handleSubmit}>
             <input
                 id="name"
@@ -50,6 +52,14 @@ function Contact() {
             <button className="btn-submit" type="submit" disabled={state.submitting}>
                 Отправить</button>
         </form>
+        <div class="social">
+            <p className="goToInsta">Здесь вы также можете посмотреть мои изделия и написать мне</p>
+            <a href="https://www.instagram.com/leonburgksenia?igsh=NGxmd2RmZ2dmZzBu" 
+                target="_blank" rel="noopener noreferrer"
+                className="instagram">
+                <FontAwesomeIcon icon={faInstagram} size="3x"/></a>
+        </div>
+        </div>
     )
 }
 export default Contact;
