@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import './App.css';
-import { data } from './data';
+import { allProducts } from './allProducts';
 import Products from './Products';
 import Buttons from './Buttons';
 
 function Shop() {
-    const [gingerbread, setGingerBread] = useState(data);
+    const [gingerbread, setGingerBread] = useState(allProducts);
     const selectedProduct = (searchTerm) => {
-    const newSelection = data.filter(item => 
+    const newSelection = allProducts.filter(item => 
         item.searchTerm === searchTerm);
         setGingerBread(newSelection)
     }
     return (
     <div className="shop-container">
         <Buttons selectedProduct = {selectedProduct}
-        data = {data}
+        allProducts = {allProducts}
         setGingerBread = {setGingerBread}/>
         <Products gingerbread = {gingerbread}/>
     </div>

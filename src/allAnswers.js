@@ -1,4 +1,4 @@
-export const data2 = [
+export const allAnswers = [
     {
         id: 1,
         title: "Состав пряников",

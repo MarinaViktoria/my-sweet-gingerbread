@@ -1,27 +1,20 @@
-import { useState, useRef } from 'react';
-import song from './audio.mp3'
+import { useState } from 'react';
 import './App.css';
-import { data2 } from './data2';
+import { allAnswers } from './allAnswers';
 import back from './back.png';
 import next from './next.png';
+import Music from './Music';
 
 function FAQ() {
 
     const [answer, setAnswer] = useState(0);
-    const {title, text} = data2[answer];
+    const {title, text} = allAnswers[answer];
     
-    const [musicPlay, setMusicPlay] = useState(true);
-    const refAudio = useRef();
-
-    const handleMusic = () => {
-        setMusicPlay(!musicPlay)
-        musicPlay ? refAudio.current.play() : refAudio.current.pause()
-    }
     const previousAnswer = () => {
         setAnswer((answer => {
             answer --;
             if (answer < 0) {
-                return data2.length - 1;
+                return allAnswers.length - 1;
             }
             return answer
         }))
@@ -29,7 +22,7 @@ function FAQ() {
     const nextAnswer = () => {
         setAnswer((answer => {
             answer ++;
-            if (answer > data2.length - 1) {
+            if (answer > allAnswers.length - 1) {
                 answer = 0;
             }
             return answer
@@ -37,15 +30,7 @@ function FAQ() {
     }
     return(
         <div>
-            <div className="audio">
-                <audio
-                    src={song}
-                    loop="loop"
-                    ref={refAudio}>
-                </audio>
-                {/*Music by OctoSound from Pixabay*/}
-                <button className="btn-music" onClick={handleMusic}>{musicPlay ? "Play" : "Pause"}</button>
-            </div>
+            <Music/>
         <div className="answer-container">
             <button className="btn-answer" onClick={previousAnswer}>
                 <img src={back} className="direction" alt="Back"/></button>

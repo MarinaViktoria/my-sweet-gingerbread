@@ -27,7 +27,7 @@ import lama from './lama.jpg';
 import minecraft from './minecraft.jpg';
 import fixiki from './fixiki.jpg';
 
-export const data = [
+export const allProducts = [
     {
         id: 1,
         image: mario,

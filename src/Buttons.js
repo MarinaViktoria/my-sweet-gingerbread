@@ -1,7 +1,7 @@
-function Buttons({data, setGingerBread, selectedProduct}) {
+function Buttons({allProducts, setGingerBread, selectedProduct}) {
     return(
         <div className="btn-container">
-            <button className="btn" onClick={() => setGingerBread(data)}>Все</button>
+            <button className="btn" onClick={() => setGingerBread(allProducts)}>Все</button>
             <button className="btn" onClick={() => selectedProduct("Видеоигры")}>Видеоигры</button>
             <button className="btn" onClick={() => selectedProduct("Любимые персонажи")}>Любимые персонажи</button>
             <button className="btn" onClick={() => selectedProduct("День рождения")}>День рождения</button>
