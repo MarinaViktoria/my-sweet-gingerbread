@@ -1,225 +1,225 @@
-import mario from './mario.jpg';
-import sonic from './sonic.jpg';
-import pikachu from './pikachu.jpg';
-import pokemons from './pokemons.jpg';
-import superheroes from './superheroes.jpg';
-import tom from './tom.jpg';
-import turtles from './turtles.jpg';
-import birthdayOne from './birthdayOne.jpg';
-import birthdayTwo from './birthdayTwo.jpg';
-import birthdayThree from './birthdayThree.jpg';
-import birthdayFour from './birthdayFour.jpg';
-import christmasOne from './christmasOne.jpg';
-import christmasTwo from './christmasTwo.jpg';
-import christmasThree from './christmasThree.jpg';
-import christmasFour from './christmasFour.jpg';
-import christmasFive from './christmasFive.jpg';
-import christmasSix from './christmasSix.jpg';
-import princesses from './princesses.jpg';
-import schoolOne from './schoolOne.jpg';
-import simba from './simba.jpg';
-import pirat from './pirat.jpg';
-import schoolTwo from './schoolTwo.jpg';
-import schoolThree from './schoolThree.jpg';
-import starwars from './starwars.jpg';
-import football from './football.jpg';
-import lama from './lama.jpg';
-import minecraft from './minecraft.jpg';
-import fixiki from './fixiki.jpg';
+import photoMario from './photo-mario.jpg';
+import photoSonic from './photo-sonic.jpg';
+import photoPikachu from './photo-pikachu.jpg';
+import photoPokemons from './photo-pokemons.jpg';
+import photoSuperheroes from './photo-superheroes.jpg';
+import photoTom from './photo-tom.jpg';
+import photoTurtles from './photo-turtles.jpg';
+import photoBirthdayOne from './photo-birthdayOne.jpg';
+import photoBirthdayTwo from './photo-birthdayTwo.jpg';
+import photoBirthdayThree from './photo-birthdayThree.jpg';
+import photoBirthdayFour from './photo-birthdayFour.jpg';
+import photoChristmasOne from './photo-christmasOne.jpg';
+import photoChristmasTwo from './photo-christmasTwo.jpg';
+import photoChristmasThree from './photo-christmasThree.jpg';
+import photoChristmasFour from './photo-christmasFour.jpg';
+import photoChristmasFive from './photo-christmasFive.jpg';
+import photoChristmasSix from './photo-christmasSix.jpg';
+import photoPrincesses from './photo-princesses.jpg';
+import photoSchoolOne from './photo-schoolOne.jpg';
+import photoSimba from './photo-simba.jpg';
+import photoPirat from './photo-pirat.jpg';
+import photoSchoolTwo from './photo-schoolTwo.jpg';
+import photoSchoolThree from './photo-schoolThree.jpg';
+import photoStarwars from './photo-starwars.jpg';
+import photoFootball from './photo-football.jpg';
+import photoLama from './photo-lama.jpg';
+import photoMinecraft from './photo-minecraft.jpg';
+import photoFixiki from './photo-fixiki.jpg';
 
 export const allProducts = [
     {
         id: 1,
-        image: mario,
+        image: photoMario,
         name: "Супер Марио",
         price: "27,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 2,
-        image: sonic,
+        image: photoSonic,
         name: "Соник",
         price: "20,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 3,
-        image: pikachu,
+        image: photoPikachu,
         name: "Пикачу",
         price: "20,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 4,
-        image: tom,
+        image: photoTom,
         name: "Том и Джерри",
         price: "24,00",
         searchTerm: "Любимые персонажи"
     },
     {
         id: 5,
-        image: turtles,
+        image: photoTurtles,
         name: "Черепашки-ниндзя",
         price: "20,00",
         searchTerm: "Любимые персонажи"
     },
     {
         id: 6,
-        image: pokemons,
+        image: photoPokemons,
         name: "Покемоны",
         price: "30,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 7,
-        image: superheroes,
+        image: photoSuperheroes,
         name: "Супер герои",
         price: "20,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 8,
-        image: birthdayOne,
+        image: photoBirthdayOne,
         name: "С днём рождения!",
         price: "26,00",
         searchTerm: "День рождения"
     },
     {
         id: 9,
-        image: birthdayTwo,
+        image: photoBirthdayTwo,
         name: "С днём рождения!",
         price: "30,00",
         searchTerm: "День рождения"
     },
     {
         id: 10,
-        image: birthdayThree,
+        image: photoBirthdayThree,
         name: "С днём рождения!",
         price: "28,00",
         searchTerm: "День рождения"
     },
     {
         id: 11,
-        image: football,
+        image: photoFootball,
         name: "Футбол",
         price: "18,00",
         searchTerm: "Разное"
     },
     {
         id: 12,
-        image: christmasOne,
+        image: photoChristmasOne,
         name: "С Рождеством!",
         price: "10,00",
         searchTerm: "Рождество"
     },
     {
         id: 13,
-        image: pirat,
+        image: photoPirat,
         name: "Пират",
         price: "24,00",
         searchTerm: "Разное"
     },
     {
         id: 14,
-        image: christmasThree,
+        image: photoChristmasThree,
         name: "С Рождеством!",
         price: "27,00",
         searchTerm: "Рождество"
     },
     {
         id: 15,
-        image: christmasFour,
+        image: photoChristmasFour,
         name: "С Рождеством!",
         price: "10,00",
         searchTerm: "Рождество"
     },
     {
         id: 16,
-        image: christmasFive,
+        image: photoChristmasFive,
         name: "С Рождеством!",
         price: "25,00",
         searchTerm: "Рождество"
     },
     {
         id: 17,
-        image: schoolOne,
+        image: photoSchoolOne,
         name: "Школа",
         price: "20,00",
         searchTerm: "Школа"
     },
     {
         id: 18,
-        image: princesses,
+        image: photoPrincesses,
         name: "Princesses",
         price: "20,00",
         searchTerm: "Любимые персонажи"
     },
     {
         id: 19,
-        image: christmasTwo,
+        image: photoChristmasTwo,
         name: "С Рождеством!",
         price: "20,00",
         searchTerm: "Рождество"
     },
     {
         id: 20,
-        image: simba,
+        image: photoSimba,
         name: "Симба",
         price: "10,00",
         searchTerm: "Любимые персонажи"
     },
     {
         id: 21,
-        image: schoolTwo,
+        image: photoSchoolTwo,
         name: "Школа",
         price: "15,00",
         searchTerm: "Школа"
     },
     {
         id: 22,
-        image: schoolThree,
+        image: photoSchoolThree,
         name: "Школа",
         price: "30,00",
         searchTerm: "Школа"
     },
     {
         id: 23,
-        image: birthdayFour,
+        image: photoBirthdayFour,
         name: "С днём рождения!",
         price: "18,00",
         searchTerm: "День рождения"
     },
     {
         id: 24,
-        image: starwars,
+        image: photoStarwars,
         name: "Звёздные войны",
         price: "15,00",
         searchTerm: "Любимые персонажи"
     },
     {
         id: 25,
-        image: christmasSix,
+        image: photoChristmasSix,
         name: "С Рождеством!",
         price: "25,00",
         searchTerm: "Рождество"
     },
     {
         id: 26,
-        image: lama,
+        image: photoLama,
         name: "Лама",
         price: "20,00",
         searchTerm: "Разное"
     },
     {
         id: 27,
-        image: minecraft,
+        image: photoMinecraft,
         name: "Майнкрафт",
         price: "18,00",
         searchTerm: "Видеоигры"
     },
     {
         id: 28,
-        image: fixiki,
+        image: photoFixiki,
         name: "Фиксики",
         price: "15,00",
         searchTerm: "Любимые персонажи"

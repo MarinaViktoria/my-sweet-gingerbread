@@ -17,34 +17,35 @@ nav {
   padding: 15px;
 }
 .link {
-  padding: 20px 40px;
+  padding: 10px 35px;
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 .link:hover {
+  background-color: #FF8989;
   cursor: pointer;
 }
 .allProducts {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 img {
-  width: 350px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
 }
 .product-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 2%;
-  margin: 40px 30px;
-  width: 400px;
-  height: 500px;
+  margin: 30px 15px;
+  width: 270px;
+  height: 320px;
   background-color: #FFC5C5;
 }
 img:hover {
@@ -53,26 +54,22 @@ img:hover {
   cursor: pointer;
 }
 .title {
-  margin-top: 15%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-}
-p {
+  margin-top: 10%;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 .btn-container {
-  margin-top: 70px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
 }
 .btn {
   background-color: #FFC5C5;
-  padding: 12px;
+  padding: 10px;
   margin: 10px;
   flex: 1;
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   border: none;
 }
 .btn:hover {
@@ -80,10 +77,10 @@ p {
   cursor: pointer;
 }
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .text {
-  padding: 40px 10px 40px 10px;
+  padding: 10px 10px 10px 10px;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
@@ -91,27 +88,29 @@ p {
   text-align: center;
   background: #FCAEAE;
   opacity: 0.7;
-  margin-left: 5%;
-  width: 45%;
-  height: 80%;
+  margin-left: 2%;
+  margin-bottom: 50px;
+  width: 55%;
 }
 p {
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 h2 {
+  font-size: 18px;
   margin-top: 5px;
 }
 .price {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 13px;
+  margin-top: 5px;
 }
 .audio {
-  margin-left: 26%;
-  margin-top: 5%
+  margin-left: 20%;
+  margin-top: 3%
 }
 .btn-music {
   background-color: #FFC5C5;
-  padding: 15px;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   border: 2px solid #FF8989;
@@ -127,8 +126,8 @@ h2 {
   justify-content: center;
 }
 .text-areaAnswer {
-  width: 700px;
-  height: 300px;
+  width: 600px;
+  height: 250px;
   border: 2px solid #FFC5C5;
   display: flex;
   flex-direction: column;
@@ -138,16 +137,16 @@ h2 {
 .title-answer, .title-contact {
   font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
-  font-size: 23px;
+  font-size: 18px;
 }
 .text-answer {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 .btn-answer {
   background-color: #FFC5C5;
   padding: 12px;
-  width: 100px;
+  width: 80px;
   border: none;
 }
 .direction {
@@ -156,9 +155,9 @@ h2 {
 }
 .btn-submit {
   background-color: #FFC5C5;
-  padding: 12px;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   border: none;
 }
 .btn-answer:hover, .btn-submit:hover {
@@ -166,7 +165,7 @@ h2 {
   cursor: pointer;
 }
 form {
-  margin: 8% 10% 5% 10%;
+  margin: 5% 10% 5% 10%;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -183,13 +182,13 @@ textarea {
   width: 400px;
   padding: 10px;
   margin: 10px;
-  font-size: 16.5px;
+  font-size: 16px;
   border: 2px solid #FFC5C5;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 .contact {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
@@ -209,7 +208,7 @@ textarea {
 }
 .goToInsta {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media all and (max-width: 810px) {
