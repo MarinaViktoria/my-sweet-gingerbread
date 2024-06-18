@@ -216,10 +216,10 @@ textarea {
     padding: 5px;
   }
   .link {
-    font-size: 19px;
+    font-size: 15px;
     text-align: center;
     margin: auto;
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
   .container {
     margin-top: 7%;
@@ -230,9 +230,6 @@ textarea {
     width: 100px;
     font-size: 14px;
     text-align: center;
-  }
-  .price {
-    font-size: 18px;
   }
   .text {
     margin: auto;
@@ -246,19 +243,32 @@ textarea {
   .product-card {
     margin: 20px 30px;
     width: 300px;
-    height: 400px;
+    height: 350px;
+  }
+  .answer-container {
+    margin: 5% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
   }
   .text-areaAnswer {
-    width: 700px;
-    height: 470px;
+    height: 300px;
+  }
+  .title-answer, .title-contact {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .text-answer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
   }
   .btn-answer {
-    width: 150px;
+    width: 100px;
     font-size: 18px;
   }
   .audio {
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   form {
     margin-top: 15%;
@@ -276,18 +286,23 @@ textarea {
     padding: 5px;
   }
   .link {
-    font-size: 16px;
-    padding: 5px 5px;
+    font-size: 14px;
+    padding: 4px 5px;
   }
   .text {
     width: 80%;
   }
   .btn-container {
-    height: 220px;
+    height: 150px;
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
-    margin: 5% 10% 5% 15%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .product-card {
+    margin: 20px 30px;
+    width: 300px;
+    height: 340px;
   }
   .btn {
     margin: 5px;
@@ -299,16 +314,16 @@ textarea {
     align-items: center;
   }
   .text-areaAnswer {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     text-align: left;
   }
   .title-answer {
     margin: 2%;
-    font-size: 18px;
+    font-size: 17px;
   }
   .text-answer {
-    font-size: 17px;
+    font-size: 16px;
   }
   .btn-answer {
     margin: 10px;
@@ -321,14 +336,17 @@ textarea {
     height: 30px;
   }
   input {
-    width: 350px;
+    width: 300px;
   }
   textarea {
-    width: 350px;
+    width: 300px;
+  }
+  .btn-submit {
+    font-size: 16px;
   }
   .goToInsta {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
   }
 }
