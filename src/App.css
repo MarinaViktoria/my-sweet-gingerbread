@@ -47,10 +47,10 @@ img {
   width: 270px;
   height: 320px;
   background-color: #FFC5C5;
+  transition: transform 2s;
 }
 img:hover {
-  transform: scale(1.2);
-  transition: transform 1.2s ease-in-out;
+  transform: scale(1.1);
   cursor: pointer;
 }
 .title {
